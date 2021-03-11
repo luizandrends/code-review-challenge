@@ -77,7 +77,6 @@ describe("Projects", () => {
         title: "Unform",
         techs: ["React", "ReactNative", "TypeScript", "ContextApi"]
       });
-
     expect(isUuid(response.body.id)).toBe(true);
 
     expect(response.body).toMatchObject({
